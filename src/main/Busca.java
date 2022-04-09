@@ -25,9 +25,9 @@ public class Busca {
                 .thenApply(HttpResponse::body)
                 .thenApply(Busca::parse);
     }
-	public static List<String> parse(String dataset) {
+	public static List<String> parse(String dados) {
 
-        JSONObject filmes = new JSONObject(dataset);
+        JSONObject filmes = new JSONObject(dados);
 
         List<String> list = new ArrayList<String>();
         JSONArray array = filmes.getJSONArray("items");
