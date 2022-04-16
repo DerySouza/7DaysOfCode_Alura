@@ -12,15 +12,8 @@ import java.util.concurrent.ExecutionException;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
- 
 
-
-
-
- 
 public class Teste {
-	
-	
 	
     public static void main( String[] args ) throws IOException, InterruptedException, ExecutionException {
     	 
